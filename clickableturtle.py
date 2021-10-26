@@ -31,11 +31,16 @@ class ClickableTurtle(Turtle):
     self.goto(self.x, self.y + 17)
     self.write(text, move=False, align='center', font=('Arial', 10, 'normal'))
     self.goto(self.x, self.y)
+  
+
 
   # tells what happens when button is clicked
   def click(self, x, y):
     # This is Placeholder:  What should this button do?
     print ("Click")
+    player_4.forward()
+    
+    
 
   # TODO:  
   # 1) Change the button color 
